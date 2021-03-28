@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: nasb
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://8.142.38.77:3306/nasb
+    username: harutya
+    password: harutya210318
+  jpa:
+    hibernate:
+      ddl-auto: update
+server:
+  port: 8081
+  tomcat:
+    uri-encoding: UTF-8
+
